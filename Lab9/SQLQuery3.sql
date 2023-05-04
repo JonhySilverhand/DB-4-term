@@ -1,0 +1,8 @@
+PRINT 'Число обработанных строк:				' + CAST(@@ROWCOUNT AS CHAR)
+PRINT 'Version SQL Server:						' + CAST(@@VERSION AS CHAR)
+PRINT 'Error Code:								' + CAST(@@SPID AS CHAR)
+PRINT 'Level Transaction:						' + CAST(@@ERROR AS CHAR)
+PRINT 'Server Name:							' + CAST(@@SERVERNAME AS CHAR)
+PRINT 'Level Transaction:						' + CAST(@@TRANCOUNT AS CHAR)
+PRINT 'Fetch Status:							' + CAST(@@FETCH_STATUS AS CHAR)
+PRINT 'Уровень вложенности текущей процедуры:	' + CAST(@@NESTLEVEL AS CHAR)
